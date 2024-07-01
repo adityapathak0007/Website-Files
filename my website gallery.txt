@@ -1,0 +1,459 @@
+<html>
+<head>
+
+ <style>
+  *{
+    margin: 0; padding: 0; font-family: Josefin Sans;
+   }
+
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  </style>
+
+<link rel="icon" href="aditya.png" type="image/png" sizes="16x16">
+
+<title>ADI'S CREATIONS</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Gallery</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="gallery.html">Gallery<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="index.php">Home</a>
+      </li>
+
+<li class="nav-item">
+
+        <a class="nav-link" href="musicply.html">My Fav Songs</a>
+
+      </li>
+
+
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Contact
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="tel:8459919830">Call Me</a>
+          <a class="dropdown-item" href="sms:8624800262">Text Me</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="mailto:adityapathak9990@gmail.com">Mail Me</a>
+        </div>
+      </li>
+     
+    </ul>
+    <script async src="https://cse.google.com/cse.js?cx=009718317048645977080:tijruaswdsu"></script>
+<div class="gcse-search"></div>
+  </div>
+</nav>
+
+<meta name ="theme-color" content="#3c3c3c"/>
+
+
+</head>
+  <body>
+<div class="jumbotron">
+  <h1>Gallery</h1>
+  <p>Memories😍</p>
+  
+   <div id="clock">8:10:45</div> 
+  
+    <script> 
+        setInterval(showTime, 1000); 
+        function showTime() { 
+            let time = new Date(); 
+            let hour = time.getHours(); 
+            let min = time.getMinutes(); 
+            let sec = time.getSeconds(); 
+            am_pm = "AM"; 
+  
+            if (hour > 12) { 
+                hour -= 12; 
+                am_pm = "PM"; 
+            } 
+            if (hour == 0) { 
+                hr = 12; 
+                am_pm = "AM"; 
+            } 
+  
+            hour = hour < 10 ? "0" + hour : hour; 
+            min = min < 10 ? "0" + min : min; 
+            sec = sec < 10 ? "0" + sec : sec; 
+  
+            let currentTime = hour + ":"  
+                + min + ":" + sec + am_pm; 
+  
+            document.getElementById("clock") 
+                .innerHTML = currentTime; 
+        } 
+  
+        showTime(); 
+    </script> 
+
+  
+  
+  
+</div>
+
+<section>
+  <div class="container">
+  <h1 class="text-center text-capitalize pt-5">Gallery</h1>
+  <hr class="w-25 mx-auto pt-5">
+  <div class="row">
+    <div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi10.jpg" class="img-fluid">
+    </div>
+    <div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi15.jpg" class="img-fluid">
+    </div>
+    <div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi16.jpg" class="img-fluid">
+    </div>
+    <div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi17.jpg" class="img-fluid">
+    </div>
+    <div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi18.jpg" class="img-fluid">
+    </div>
+    <div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi19.jpg" class="img-fluid">
+    </div>
+    <div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi20.jpg" class="img-fluid">
+    </div>
+    <div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi21.jpg" class="img-fluid">
+    </div>
+    <div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi22.jpg" class="img-fluid">
+    </div>
+    <div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi23.jpg" class="img-fluid">
+    </div>
+    <div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi24.jpg" class="img-fluid">
+    </div>
+    <div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi25.jpg" class="img-fluid">
+    </div>
+    <div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi26.jpg" class="img-fluid">
+    </div>
+    <div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi27.jpg" class="img-fluid">
+    </div>
+    <div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi28.jpg" class="img-fluid">
+    </div>
+
+     <div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi29.jpg" class="img-fluid">
+    </div>
+
+    <div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi30.jpg" class="img-fluid">
+    </div>
+
+    <div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi31.jpg" class="img-fluid">
+    </div>
+    
+
+   
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi51.jpg" class="img-fluid">
+    </div>
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi52.JPG" class="img-fluid">
+    </div>
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi53.jpg" class="img-fluid">
+    </div>
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi54.jpg" class="img-fluid">
+    </div>
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi55.JPG" class="img-fluid">
+    </div>
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi56.jpg" class="img-fluid">
+    </div>
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi57.jpg" class="img-fluid">
+    </div>
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi58.jpg" class="img-fluid">
+    </div>
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi59.jpg" class="img-fluid">
+    </div>
+
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi76.jpg" class="img-fluid">
+    </div>
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi77.jpg" class="img-fluid">
+    </div>
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi78.jpg" class="img-fluid">
+    </div>
+
+
+
+   <div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi79.jpg" class="img-fluid">
+    </div>
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi80.jpg" class="img-fluid">
+    </div>
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi81.jpg" class="img-fluid">
+    </div>
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi82.jpg" class="img-fluid">
+    </div>
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi83.jpg" class="img-fluid">
+    </div>
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi84.jpg" class="img-fluid">
+    </div>
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi85.JPG" class="img-fluid">
+    </div>
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi86.jpg" class="img-fluid">
+    </div>
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi87.jpg" class="img-fluid">
+    </div>
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi88.jpg" class="img-fluid">
+    </div>
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi89.jpg" class="img-fluid">
+    </div>
+
+
+    
+
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi100.jpg" class="img-fluid">
+    </div>
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi101.jpg" class="img-fluid">
+    </div>
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi102.jpg" class="img-fluid">
+    </div>
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi103.jpg" class="img-fluid">
+    </div>
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi104.jpg" class="img-fluid">
+    </div>
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi105.jpg" class="img-fluid">
+    </div>
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi106.jpg" class="img-fluid">
+    </div>
+
+
+   <div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi107.jpg" class="img-fluid">
+    </div>
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi108.jpg" class="img-fluid">
+    </div>
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi109.JPG" class="img-fluid">
+    </div>
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi110.JPG" class="img-fluid">
+    </div>
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi111.jpg" class="img-fluid">
+    </div>
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi112.jpg" class="img-fluid">
+    </div>
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi113.jpg" class="img-fluid">
+    </div>
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi114.jpg" class="img-fluid">
+    </div>
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi115.jpg" class="img-fluid">
+    </div>
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi116.jpg" class="img-fluid">
+    </div>
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi117.jpg" class="img-fluid">
+    </div>
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi118.jpg" class="img-fluid">
+    </div>
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi119.jpg" class="img-fluid">
+    </div>
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi120.jpg" class="img-fluid">
+    </div>
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi121.jpg" class="img-fluid">
+    </div>
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi122.jpg" class="img-fluid">
+    </div>
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi123.jpg" class="img-fluid">
+    </div>
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi124.jpg" class="img-fluid">
+    </div>
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi125.jpg" class="img-fluid">
+    </div>
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi126.jpg" class="img-fluid">
+    </div>
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi127.jpg" class="img-fluid">
+    </div>
+
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi128.jpg" class="img-fluid">
+    </div>
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi129.jpg" class="img-fluid">
+    </div>
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi130.JPG" class="img-fluid">
+    </div>
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi131.jpg" class="img-fluid">
+    </div>
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi132.jpg" class="img-fluid">
+    </div>
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi133.jpg" class="img-fluid">
+    </div>
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi134.jpg" class="img-fluid">
+    </div>
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi135.jpg" class="img-fluid">
+    </div>
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi136.jpg" class="img-fluid">
+    </div>
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi137.JPG" class="img-fluid">
+    </div>
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi138.jpg" class="img-fluid">
+    </div>
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi139.jpg" class="img-fluid">
+    </div>
+
+<div class="col-lg-4 col-md-2 col-12 mb-4">
+      <img src="adi140.jpg" class="img-fluid">
+    </div>
+
+
+
+
+
+
+
+</div>
+</div>
+</section>
+</a>
+</button></div>
+</div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+<footer>
+  <p class="text-center bg-dark text-white">
+  @copyright_adiadu07.com </p>
+    
+  
+</footer>
+
+
+</body>
+</html>
+

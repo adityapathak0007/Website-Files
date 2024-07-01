@@ -1,0 +1,237 @@
+
+<html>
+<head>
+
+ <style>
+  *{
+    margin: 0; padding: 0; font-family: Josefin Sans;
+   }
+
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  </style>
+
+<link rel="icon" href="aditya.png" type="image/png" sizes="16x16">
+
+<title>ADI'S CREATIONS</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">My Fav Songs</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="musicply.html">My Fav Songs <span class="sr-only">(current)</span></a>
+      </li>
+
+  <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="index.php">Home</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="gallery.html">Gallery</a>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Contact
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="tel:8459919830">Call Me</a>
+          <a class="dropdown-item" href="sms:8624800262">Text Me</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="mailto:adityapathak9990@gmail.com">Mail Me</a>
+        </div>
+      </li>
+     
+    </ul>
+    <script async src="https://cse.google.com/cse.js?cx=009718317048645977080:tijruaswdsu"></script>
+<div class="gcse-search"></div>
+  </div>
+</nav>
+<meta name ="theme-color" content="#3c3c3c"/>
+
+
+</head>
+  <body>
+<div class="jumbotron">
+  <h1>My Fav Songs💟</h1>
+  <p>🎶💟</p>
+   <div id="clock">8:10:45</div> 
+  
+    <script> 
+        setInterval(showTime, 1000); 
+        function showTime() { 
+            let time = new Date(); 
+            let hour = time.getHours(); 
+            let min = time.getMinutes(); 
+            let sec = time.getSeconds(); 
+            am_pm = "AM"; 
+  
+            if (hour > 12) { 
+                hour -= 12; 
+                am_pm = "PM"; 
+            } 
+            if (hour == 0) { 
+                hr = 12; 
+                am_pm = "AM"; 
+            } 
+  
+            hour = hour < 10 ? "0" + hour : hour; 
+            min = min < 10 ? "0" + min : min; 
+            sec = sec < 10 ? "0" + sec : sec; 
+  
+            let currentTime = hour + ":"  
+                + min + ":" + sec + am_pm; 
+  
+            document.getElementById("clock") 
+                .innerHTML = currentTime; 
+        } 
+  
+        showTime(); 
+    </script> 
+
+  
+  
+  
+</div>
+
+    <header>
+
+    <audio controls>
+  <source src="adi1.ogg" type="audio/ogg">
+  <source src="adi1.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio> <br>
+
+<audio controls>
+  <source src="adi2.ogg" type="audio/ogg">
+  <source src="adi2.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio> <br>
+
+<audio controls>
+  <source src="adi3.ogg" type="audio/ogg">
+  <source src="adi3.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio> <br>
+
+<audio controls>
+  <source src="adi4.ogg" type="audio/ogg">
+  <source src="adi4.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio> <br>
+
+
+<audio controls>
+  <source src="adi5.ogg" type="audio/ogg">
+  <source src="adi5.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio> <br>
+
+<audio controls>
+  <source src="adi6.ogg" type="audio/ogg">
+  <source src="adi6.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio> <br>
+
+<audio controls>
+  <source src="adi7.ogg" type="audio/ogg">
+  <source src="adi7.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio> <br>
+
+<audio controls>
+  <source src="adi8.ogg" type="audio/ogg">
+  <source src="adi8.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio> <br>
+
+<audio controls>
+  <source src="adi9.ogg" type="audio/ogg">
+  <source src="adi9.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio> <br>
+
+<audio controls>
+  <source src="adi14.ogg" type="audio/ogg">
+  <source src="adi14.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio> <br>
+
+<audio controls>
+  <source src="adi10.ogg" type="audio/ogg">
+  <source src="adi10.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio> <br>
+
+<audio controls>
+  <source src="adi11.ogg" type="audio/ogg">
+  <source src="adi11.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio> <br>
+
+
+<audio controls>
+  <source src="adi12.ogg" type="audio/ogg">
+  <source src="adi12.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio> <br>
+
+<audio controls>
+  <source src="adi13.ogg" type="audio/ogg">
+  <source src="adi13.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio> <br>
+
+<audio controls>
+  <source src="adi15.ogg" type="audio/ogg">
+  <source src="adi15.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio> <br>
+
+
+
+
+    <section>
+
+  <button class="btn btn-warning"><a href="https://www.instagram.com/adi_adu07">Follow Me On IG</button><br>
+    <button class="btn btn-warning"><a href="https://www.facebook.com/adiadu034">Follow Me On FB</button><br>
+      <button class="btn btn-warning"><a href="https://www.twitter.com/adi_adu07">Follow Me On TWITTER</button>
+</div>
+</div>
+</div>
+
+</section>
+</header>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+
+<footer>
+  <p class="text-center bg-dark text-white">
+  @copyright_adiadu07.com </p>
+    
+  
+</footer>
+
+
+  
+  </body>
+  </html>

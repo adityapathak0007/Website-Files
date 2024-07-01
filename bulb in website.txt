@@ -1,0 +1,199 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+    
+    <style>
+  *{
+    margin: 0; padding: 0; font-family: Josefin Sans;
+   }
+
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  </style>
+
+<link rel="icon" href="di0.png" type="image/png" sizes="16x16">
+<title>💜💜</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+  
+<body>
+<header>
+
+<meta name ="theme-color" content="#3c3c3c"/>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">💟💖MAGIC💜💗</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index11.html">MAGIC<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">happybirthdaydi</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">b'day msg</a>
+      </li>
+     <li class="nav-item">
+        <a class="nav-link" href="demogame4.html">game</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="cake.html">cake</a>
+      </li>
+      
+
+
+
+      
+    
+
+<script async src="https://cse.google.com/cse.js?cx=009718317048645977080:tijruaswdsu"></script>
+<div class="gcse-search"></div>
+
+    
+  </div>
+</nav>
+
+
+
+   <body>
+<div class="jumbotron">
+  <h1>🎂MAGIC🎂</h1>
+  
+  
+   <div id="clock">8:10:45</div> 
+  
+    <script> 
+        setInterval(showTime, 1000); 
+        function showTime() { 
+            let time = new Date(); 
+            let hour = time.getHours(); 
+            let min = time.getMinutes(); 
+            let sec = time.getSeconds(); 
+            am_pm = "AM"; 
+  
+            if (hour > 12) { 
+                hour -= 12; 
+                am_pm = "PM"; 
+            } 
+            if (hour == 0) { 
+                hr = 12; 
+                am_pm = "AM"; 
+            } 
+  
+            hour = hour < 10 ? "0" + hour : hour; 
+            min = min < 10 ? "0" + min : min; 
+            sec = sec < 10 ? "0" + sec : sec; 
+  
+            let currentTime = hour + ":"  
+                + min + ":" + sec + am_pm; 
+  
+            document.getElementById("clock") 
+                .innerHTML = currentTime; 
+        } 
+  
+        showTime(); 
+    </script> 
+  
+ 
+</div>
+
+    <header>
+
+    <section>
+<div class="container-fluid">
+
+
+<button onclick="document.getElementById('myImage').src='bulbon.jpg'">Turn on the light</button>
+
+<img id="myImage" src="bulboff.png" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='bulboff.png'">Turn off the light</button>
+
+
+
+
+<br>
+ 
+
+  
+ 
+  
+
+
+
+
+
+</div>
+</div>
+</div>
+
+</section>
+</header>
+
+<audio controls autoplay>
+  <source src="adi34.ogg" type="audio/ogg">
+  <source src="adi34.mp3" type="audio/mpeg">
+  
+</audio> <br>
+
+<audio controls autoplay>
+  <source src="adi35.ogg" type="audio/ogg">
+  <source src="adi35.mp3" type="audio/mpeg">
+  
+</audio>
+
+
+
+<footer>
+  <p class="text-center bg-dark text-white">
+MAGIC</p>
+    
+  
+</footer>
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+ 
+
+
+</body>
+
+</section>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>
+
